@@ -1,0 +1,46 @@
+running egg_info
+creating ../build/my_moveit_pkg/my_moveit_pkg.egg-info
+writing ../build/my_moveit_pkg/my_moveit_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/my_moveit_pkg/my_moveit_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/my_moveit_pkg/my_moveit_pkg.egg-info/entry_points.txt
+writing requirements to ../build/my_moveit_pkg/my_moveit_pkg.egg-info/requires.txt
+writing top-level names to ../build/my_moveit_pkg/my_moveit_pkg.egg-info/top_level.txt
+writing manifest file '../build/my_moveit_pkg/my_moveit_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/my_moveit_pkg/my_moveit_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/my_moveit_pkg/my_moveit_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build
+creating /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib
+creating /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib/my_moveit_pkg
+copying my_moveit_pkg/ur5_arm_test_copy.py -> /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib/my_moveit_pkg
+copying my_moveit_pkg/ur5_arm_test.py -> /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib/my_moveit_pkg
+copying my_moveit_pkg/__init__.py -> /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib/my_moveit_pkg
+copying my_moveit_pkg/publisher_testing.py -> /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib/my_moveit_pkg
+running install
+running install_lib
+creating /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg
+copying /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib/my_moveit_pkg/ur5_arm_test_copy.py -> /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg
+copying /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib/my_moveit_pkg/ur5_arm_test.py -> /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg
+copying /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib/my_moveit_pkg/__init__.py -> /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg
+copying /home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/build/lib/my_moveit_pkg/publisher_testing.py -> /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg
+byte-compiling /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg/ur5_arm_test_copy.py to ur5_arm_test_copy.cpython-310.pyc
+byte-compiling /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg/ur5_arm_test.py to ur5_arm_test.cpython-310.pyc
+byte-compiling /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg/publisher_testing.py to publisher_testing.cpython-310.pyc
+running install_data
+creating /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/share/ament_index
+creating /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/share/ament_index/resource_index
+creating /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/share/ament_index/resource_index/packages
+copying resource/my_moveit_pkg -> /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/share/my_moveit_pkg
+creating /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/share/my_moveit_pkg/launch
+copying launch/ur5_arm_test.launch.py -> /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/share/my_moveit_pkg/launch
+creating /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/share/my_moveit_pkg/config
+copying config/ur5_arm_test_goal_config.yaml -> /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/share/my_moveit_pkg/config
+running install_egg_info
+Copying ../build/my_moveit_pkg/my_moveit_pkg.egg-info to /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/python3.10/site-packages/my_moveit_pkg-2.35.0-py3.10.egg-info
+running install_scripts
+Installing publisher_testing script to /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/my_moveit_pkg
+Installing ur5_arm_test script to /home/csrobot/workspaces/ur_gazebo/src/install/my_moveit_pkg/lib/my_moveit_pkg
+writing list of installed files to '/home/csrobot/workspaces/ur_gazebo/src/build/my_moveit_pkg/install.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+publisher_testing = my_moveit_pkg.publisher_testing:main
+ur5_arm_test = my_moveit_pkg.ur5_arm_test:main
+

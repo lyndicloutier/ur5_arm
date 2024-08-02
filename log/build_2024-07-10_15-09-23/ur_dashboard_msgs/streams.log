@@ -1,0 +1,641 @@
+[0.038s] Invoking command in '/home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/csrobot/workspaces/ur_gazebo/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs
+[0.276s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.277s] -- Detecting C compiler ABI info
+[0.277s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.379s] -- Detecting CXX compiler ABI info - done
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.389s] -- Detecting CXX compile features
+[0.390s] -- Detecting CXX compile features - done
+[0.399s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.554s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.714s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.758s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.962s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.414s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.885s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.892s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.919s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.919s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.919s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.919s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.940s] -- Found PythonExtra: .so  
+[2.016s] -- Configuring done
+[2.074s] -- Generating done
+[2.076s] -- Build files have been written to: /home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs
+[2.083s] Invoked command in '/home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/csrobot/workspaces/ur_gazebo/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs
+[2.084s] Invoking command in '/home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs -- -j12 -l12
+[2.149s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.168s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.179s] [  1%] Built target ament_cmake_python_copy_ur_dashboard_msgs
+[2.407s] running egg_info
+[2.407s] creating ur_dashboard_msgs.egg-info
+[2.407s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[2.408s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[2.408s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[2.408s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[2.409s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[2.410s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[2.437s] [  1%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[3.542s] [  1%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[3.542s] [  2%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[3.543s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[3.543s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[3.544s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[3.547s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[3.548s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[3.548s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[3.548s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[3.550s] [  9%] Built target ur_dashboard_msgs__cpp
+[3.550s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[3.550s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[3.574s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.618s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[3.623s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.630s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[3.630s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[3.637s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.745s] [ 14%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[3.796s] [ 14%] Built target ur_dashboard_msgs__rosidl_generator_c
+[3.813s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.813s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.817s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.350s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[4.350s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[4.350s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[4.351s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[4.352s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[4.353s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[4.362s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[4.680s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[4.693s] [ 24%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[4.705s] [ 24%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[4.717s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[4.729s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[4.734s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[4.862s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[4.935s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[4.995s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[5.009s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[5.044s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[5.050s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[5.054s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[5.054s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[5.079s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[5.087s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[5.088s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[5.100s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[5.104s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[5.108s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[5.155s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[5.173s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[5.175s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[5.183s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[5.252s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[5.262s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[5.274s] [ 43%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[5.390s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[5.405s] [ 43%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[5.444s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[5.444s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[5.452s] [ 46%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[5.461s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[5.519s] [ 48%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[5.526s] [ 49%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[5.535s] [ 49%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[5.546s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[5.560s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[5.585s] [ 52%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[5.629s] [ 52%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[5.715s] [ 53%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[5.732s] [ 53%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[5.749s] [ 54%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[5.754s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[5.816s] [ 55%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[5.816s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[5.822s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[5.909s] [ 57%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[5.920s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[5.949s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[5.965s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[5.967s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[5.984s] [ 60%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[6.014s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[6.023s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[6.034s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[6.043s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[6.070s] [ 64%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[6.158s] [ 64%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[6.227s] [ 65%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[6.270s] [ 66%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[6.298s] [ 66%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[6.302s] [ 67%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[6.348s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[6.363s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[6.375s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[6.386s] [ 71%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.400s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[6.450s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[6.460s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[6.461s] [ 73%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[6.481s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[6.482s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[6.494s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[6.502s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[6.526s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[6.533s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[6.771s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[6.877s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[6.885s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[6.915s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[6.955s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[6.955s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[7.076s] [ 82%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.206s] [ 82%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[7.298s] [ 83%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.381s] [ 83%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[7.403s] [ 84%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.480s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[7.512s] [ 84%] Built target ur_dashboard_msgs
+[7.543s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.839s] [ 85%] Built target ur_dashboard_msgs__py
+[9.876s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[9.876s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[9.876s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[9.876s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[9.877s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[9.878s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[9.878s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[9.878s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[9.878s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[9.879s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[9.879s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[9.880s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[10.019s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[10.024s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[10.153s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so[0m
+[10.208s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[10.240s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.240s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.240s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.414s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.414s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.414s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.467s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[10.467s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[10.468s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.485s] Invoked command in '/home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs -- -j12 -l12
+[11.167s] Invoking command in '/home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs
+[11.179s] -- Install configuration: ""
+[11.179s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[11.179s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[11.180s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[11.180s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[11.180s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[11.180s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[11.180s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[11.180s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.c
+[11.180s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[11.181s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[11.181s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[11.181s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[11.181s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[11.181s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[11.181s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[11.181s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[11.181s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[11.182s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.c
+[11.182s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c
+[11.182s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[11.182s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[11.182s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[11.182s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[11.182s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c
+[11.182s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[11.183s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.c
+[11.183s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[11.183s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c
+[11.183s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.c
+[11.183s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[11.183s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[11.183s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[11.184s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[11.184s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[11.184s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[11.184s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[11.184s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[11.184s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[11.184s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[11.184s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[11.185s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[11.185s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[11.185s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[11.185s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c
+[11.185s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[11.185s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[11.185s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[11.186s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[11.186s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.c
+[11.186s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[11.186s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[11.186s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.c
+[11.186s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.c
+[11.187s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[11.187s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[11.187s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[11.187s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[11.187s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[11.187s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[11.187s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[11.187s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[11.188s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[11.188s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[11.188s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.188s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[11.188s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[11.188s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[11.188s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[11.188s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.c
+[11.188s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[11.189s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.c
+[11.189s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[11.189s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[11.189s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[11.189s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[11.189s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[11.189s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[11.189s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.c
+[11.190s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[11.190s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[11.190s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[11.190s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[11.191s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[11.191s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[11.191s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[11.191s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[11.191s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[11.191s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[11.191s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[11.191s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[11.191s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[11.191s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[11.192s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[11.192s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[11.192s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[11.192s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[11.192s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[11.192s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[11.192s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[11.193s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[11.193s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.193s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[11.193s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[11.193s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[11.193s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[11.193s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[11.194s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[11.194s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[11.194s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[11.194s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[11.194s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[11.194s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[11.194s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[11.194s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[11.194s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[11.194s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[11.195s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[11.195s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[11.195s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[11.195s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[11.195s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[11.195s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[11.196s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[11.196s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[11.196s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[11.196s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[11.196s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[11.196s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[11.196s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[11.196s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[11.197s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[11.197s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[11.197s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[11.197s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[11.197s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[11.197s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[11.197s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[11.197s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[11.197s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[11.198s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[11.198s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[11.198s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[11.198s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.198s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[11.199s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[11.199s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[11.199s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[11.199s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[11.199s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[11.199s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[11.200s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[11.200s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[11.200s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[11.200s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[11.200s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[11.200s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[11.200s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[11.200s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[11.200s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[11.201s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[11.201s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[11.201s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[11.201s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[11.201s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[11.201s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[11.201s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[11.201s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[11.202s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[11.202s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[11.202s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[11.202s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[11.202s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[11.202s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[11.202s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[11.202s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[11.203s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[11.203s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[11.203s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[11.203s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[11.203s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[11.203s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[11.204s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[11.204s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[11.204s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[11.204s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[11.204s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[11.204s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[11.204s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[11.205s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[11.205s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[11.205s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[11.205s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[11.205s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[11.205s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[11.205s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[11.206s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[11.206s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[11.206s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[11.206s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[11.206s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[11.206s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[11.206s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[11.206s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[11.206s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[11.207s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[11.207s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[11.207s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[11.207s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[11.207s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[11.207s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[11.207s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[11.207s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[11.208s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[11.208s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[11.208s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/dds_fastrtps
+[11.208s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[11.208s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[11.208s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[11.208s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[11.208s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[11.208s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[11.209s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/dds_fastrtps
+[11.209s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[11.209s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[11.209s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[11.209s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[11.209s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[11.209s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[11.210s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[11.210s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.210s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[11.210s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[11.210s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[11.210s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[11.210s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/dds_fastrtps
+[11.210s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.211s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.211s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[11.211s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[11.211s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[11.211s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp
+[11.211s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[11.212s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[11.212s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[11.212s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[11.212s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp
+[11.212s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[11.212s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp
+[11.212s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[11.212s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp
+[11.212s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[11.213s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[11.213s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp
+[11.213s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp
+[11.213s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp
+[11.213s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp
+[11.213s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[11.213s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[11.214s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[11.214s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp
+[11.214s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.cpp
+[11.214s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[11.214s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[11.214s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.cpp
+[11.214s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[11.215s] -- Up-to-date: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[11.215s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp
+[11.215s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[11.215s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[11.215s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp
+[11.215s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[11.215s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp
+[11.215s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[11.216s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[11.216s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[11.217s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[11.217s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[11.217s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[11.217s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.13-py3.10.egg-info
+[11.217s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.13-py3.10.egg-info/PKG-INFO
+[11.217s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.13-py3.10.egg-info/top_level.txt
+[11.217s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.13-py3.10.egg-info/dependency_links.txt
+[11.218s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.13-py3.10.egg-info/SOURCES.txt
+[11.218s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs
+[11.218s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.218s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action
+[11.218s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py
+[11.218s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[11.219s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py
+[11.219s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so
+[11.219s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.219s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py
+[11.219s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[11.220s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.220s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv
+[11.220s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[11.220s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[11.220s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[11.220s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[11.221s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c
+[11.221s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[11.221s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py
+[11.221s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[11.221s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py
+[11.221s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[11.221s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py
+[11.221s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[11.222s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[11.222s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py
+[11.222s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[11.222s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c
+[11.222s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[11.222s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[11.222s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[11.223s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[11.223s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[11.223s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.223s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg
+[11.223s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py
+[11.223s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[11.223s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py
+[11.224s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[11.224s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[11.224s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[11.224s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[11.224s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.273s] Listing '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...
+[11.273s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py'...
+[11.273s] Listing '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...
+[11.273s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py'...
+[11.273s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[11.274s] Listing '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...
+[11.274s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py'...
+[11.274s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[11.274s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[11.274s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[11.274s] Listing '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...
+[11.274s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py'...
+[11.274s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[11.274s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[11.274s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[11.274s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[11.275s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[11.275s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[11.275s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[11.275s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py'...
+[11.275s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py'...
+[11.275s] Compiling '/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[11.277s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.277s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.278s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.278s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.278s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.279s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.279s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[11.279s] -- Set runtime path of "/home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[11.280s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[11.280s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[11.280s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[11.280s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[11.280s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[11.280s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[11.281s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[11.281s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[11.281s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[11.281s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[11.281s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[11.281s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[11.281s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[11.282s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[11.282s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[11.282s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[11.282s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[11.282s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[11.282s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[11.283s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[11.283s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[11.283s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[11.283s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[11.283s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[11.283s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[11.284s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[11.284s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[11.284s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[11.284s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[11.284s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[11.284s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[11.284s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[11.285s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[11.285s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[11.285s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[11.285s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[11.285s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[11.285s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[11.286s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[11.286s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[11.286s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[11.286s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[11.286s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[11.286s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[11.287s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[11.287s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[11.287s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[11.287s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[11.287s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[11.287s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[11.288s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[11.288s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[11.288s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[11.288s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[11.288s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[11.288s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[11.289s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[11.289s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[11.289s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[11.289s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[11.289s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[11.289s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.290s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.290s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.290s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.290s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.290s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[11.291s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.291s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[11.291s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.291s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.291s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.291s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.292s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[11.292s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.292s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[11.292s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.292s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[11.293s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.293s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.293s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.293s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.293s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.293s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.293s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[11.294s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[11.294s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[11.297s] Invoked command in '/home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/csrobot/workspaces/ur_gazebo/src/build/ur_dashboard_msgs

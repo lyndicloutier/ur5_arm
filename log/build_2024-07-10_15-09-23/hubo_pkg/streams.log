@@ -1,0 +1,99 @@
+[0.026s] Invoking command in '/home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/csrobot/workspaces/ur_gazebo/src/hubo_pkg -DCMAKE_INSTALL_PREFIX=/home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg
+[0.263s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.263s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.362s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.372s] -- Detecting CXX compile features
+[0.373s] -- Detecting CXX compile features - done
+[0.384s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.551s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.731s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.838s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.856s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.940s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.116s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.126s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.297s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.338s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.407s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.434s] -- Looking for pthread.h
+[1.529s] -- Looking for pthread.h - found
+[1.530s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.628s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.630s] -- Found Threads: TRUE  
+[1.826s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.918s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.031s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.033s] -- Added test 'lint_cmake' to check CMake code style
+[2.034s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.038s] -- Added test 'xmllint' to check XML markup files
+[2.041s] -- Configuring done
+[2.045s] -- Generating done
+[2.047s] -- Build files have been written to: /home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg
+[2.054s] Invoked command in '/home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/csrobot/workspaces/ur_gazebo/src/hubo_pkg -DCMAKE_INSTALL_PREFIX=/home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg
+[2.056s] Invoking command in '/home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg -- -j12 -l12
+[2.114s] Invoked command in '/home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg -- -j12 -l12
+[2.158s] Invoking command in '/home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg
+[2.169s] -- Install configuration: ""
+[2.169s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/urdf
+[2.169s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/urdf/Full_body_final.urdf
+[2.169s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/urdf/DRCHubo_partial.sdf
+[2.170s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/launch
+[2.170s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/launch/hubo_launch.py
+[2.170s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes
+[2.170s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LKN.stl
+[2.174s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_REB.stl
+[2.175s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RWY.stl
+[2.177s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LHP.stl
+[2.181s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LAP.stl
+[2.183s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RAR.stl
+[2.185s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RHP.stl
+[2.189s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LWY.stl
+[2.190s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LEB.stl
+[2.191s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LSP.stl
+[2.193s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LWP.stl
+[2.195s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RAFT.stl
+[2.196s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RHY.stl
+[2.198s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RSY.stl
+[2.200s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RKN.stl
+[2.204s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RSR.stl
+[2.206s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LWFT.stl
+[2.208s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LAFT.stl
+[2.209s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_WST.stl
+[2.212s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LAR.stl
+[2.215s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RSP.stl
+[2.216s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LSR.stl
+[2.217s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RWP.stl
+[2.219s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LHY.stl
+[2.220s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_TORSO.stl
+[2.222s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LHR.stl
+[2.224s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RAP.stl
+[2.226s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RWH.stl
+[2.227s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LSY.stl
+[2.229s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RWFT.stl
+[2.230s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_RHR.stl
+[2.232s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/meshes/Body_LWH.stl
+[2.233s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/ament_index/resource_index/package_run_dependencies/hubo_pkg
+[2.233s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/ament_index/resource_index/parent_prefix_path/hubo_pkg
+[2.233s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/environment/ament_prefix_path.sh
+[2.234s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/environment/ament_prefix_path.dsv
+[2.234s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/environment/path.sh
+[2.234s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/environment/path.dsv
+[2.234s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/local_setup.bash
+[2.234s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/local_setup.sh
+[2.234s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/local_setup.zsh
+[2.235s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/local_setup.dsv
+[2.235s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/package.dsv
+[2.235s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/ament_index/resource_index/packages/hubo_pkg
+[2.235s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/cmake/hubo_pkgConfig.cmake
+[2.235s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/cmake/hubo_pkgConfig-version.cmake
+[2.236s] -- Installing: /home/csrobot/workspaces/ur_gazebo/src/install/hubo_pkg/share/hubo_pkg/package.xml
+[2.238s] Invoked command in '/home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/csrobot/workspaces/moveit_workspace/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/csrobot/workspaces/ur_gazebo/src/build/hubo_pkg

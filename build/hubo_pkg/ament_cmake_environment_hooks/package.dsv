@@ -1,0 +1,4 @@
+source;share/hubo_pkg/local_setup.bash
+source;share/hubo_pkg/local_setup.dsv
+source;share/hubo_pkg/local_setup.sh
+source;share/hubo_pkg/local_setup.zsh
